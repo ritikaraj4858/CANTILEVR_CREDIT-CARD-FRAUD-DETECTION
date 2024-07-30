@@ -15,6 +15,8 @@ https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dat
 **Results:**
 
   -Initially, I experimented with a simple subset of features, V1-V5, for our classification model, resulting in a 0.135% misclassification rate. While this provided a baseline, I sought to improve model performance further.
+  
  -I then explored more advanced techniques, including a Bagging Classification model, which achieved a significant reduction in the misclassification rate to just 0.06% using all V1-V28 features. This improvement demonstrated the value of ensemble methods in handling complex classification tasks.
+ 
  -Subsequently, I employed a Random Forest Classification model with all V1-V28 features, which further enhanced performance with a remarkable 0.07% misclassification rate. The Random Forest's ability to capture complex relationships within the data was a key contributor to this achievement.
  
